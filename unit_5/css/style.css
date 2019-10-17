@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass|Paytone+One&display=swap');
+*{	
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	
+	background-image: url("../images/mapbg.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: #FFEFD5;
+	text-align: center;
+	color: #000;
+	font-family: 'Overpass', sans-serif;
+	font-size: 1em; 
+	position: relative;
+}
+
+nav{
+	text-align: right;
+	margin: 20px; 
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+header{
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+h1{
+	font-family: 'Paytone One', sans-serif;
+	font-size: 4em;
+	font-weight: bold;
+	margin-top: 10%
+}
+
+h2{	
+	font-size: 1.5em; 
+	text-align: center;
+	text-transform: capitalize;
+	font-family: 'Paytone One', sans-serif;
+	font-style: italic;
+}
+
+p, article {
+	font-size: 1em; 
+	text-align: center;
+}
+
+article{
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px
+    margin: 50px auto;
+    width: 30%;
+    display:inline-block,
+}
+
+aside{
+	background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+h3{
+	text-align: center;
+	font-family: 'Overpass', sans-serif; 
+	text-transform: capitalize;
+}
+
+.img1, .img2, .img3{
+	position: relative;
+    height:250px;
+    width:30%;
+    background-position: 50% 50%;   
+
+}
+
+.didipic, .emapic{
+	position: relative;
+    height:400px;
+    width:auto;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+}
+
+img{	
+	width: 35%;
+	display: block;
+	margin: 0 auto;
+}
+
+#tagline{
+	margin-bottom: 45%; 	
+}
+
+#explination{
+	font-style: bold;
+	padding: 20px
+    margin: 0 auto;
+    width: 60%;
+    display: inline-block;
+}
+
+.about{
+	font-size: 1em; 
+	font-weight: bold;
+    padding: 20px
+    margin: 50px auto;
+    width: 45%;
+    display:inline-block,	
+}
+
+div, section{
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer{
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
