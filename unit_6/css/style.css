@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass|Paytone+One&display=swap');
+*{	
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	
+	background-image: url("../images/mapbg.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: #bfd0ca;
+	text-align: center;
+	text-decoration-color: #2c2c2b;
+	color: #000;
+	font-family: 'Overpass', sans-serif;
+	font-size: 1em; 
+	position: relative;
+}
+
+#top{
+	text-align: right;
+	margin: 1%; 
+    padding: 1.25em;
+}
+
+a:link {
+  color:  #2c2c2b;
+}
+
+a:visited {
+  color:  #2c2c2b;
+}
+
+a:hover {
+  color: #f1efed;
+;
+}
+
+a:active {
+  color:  #2c2c2b;	
+}
+
+header{
+    padding: 5%;
+}
+
+h1{
+	font-family: 'Paytone One', sans-serif;
+	font-size: 4em;
+	font-weight: bold;
+}
+
+h2{	
+	font-size: 1.5em; 
+	text-align: center;
+	text-transform: capitalize;
+	font-family: 'Paytone One', sans-serif;
+	font-style: italic;
+}
+
+#tagline{
+	margin-bottom: 45%; 	
+}
+
+p, article {
+	font-size: 1em; 
+	text-align: center;
+}
+
+.img1, .img2, .img3{
+	position: relative;
+    width:100%;
+    background-position: 50% 50%;   
+}
+
+#three_column{
+    padding: 2em;
+}
+
+#one {
+    border: 1px black solid;
+    width: 26.66%;
+    float: left;
+    padding: 1em;
+    margin:	1em;
+}
+
+#two {
+    border: 1px black solid;
+    width: 26.66%;
+    float: left;
+    padding: 1em;
+    margin:	1em;
+}
+
+#three{ 
+    border: 1px black solid;
+    width: 26.66%;
+    float: left;
+    padding: 1em;
+    margin:	1em;
+}
+
+.clearfix:after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#explination{
+	font-style: bold;
+	padding-top: 4em;
+    margin: 0 auto;
+    width: 80%;
+    display: inline-block;
+}
+
+#about_class{
+	background-color: #f1efed;
+}
+
+aside{
+    border: 1px black solid;
+    padding: 20px;
+    font-family: 'Overpass', sans-serif;
+}
+
+h3{
+	text-align: center;
+	font-family: 'Overpass', sans-serif; 
+	text-transform: capitalize;
+}
+
+.didipic, .emapic{
+	position: relative;
+    width:100%;
+    background-position: 50% 50%; 
+}
+
+h4{
+	font-family: 'Paytone One', sans-serif;
+	font-size: 3em;
+	font-weight: bold;
+}
+
+#two_column{
+    padding: 2em;
+}
+
+#abio{
+    width: 40%;
+    float: left;
+    padding: 1em;
+    margin:	1em;
+}
+
+#dbio{
+    width: 40%;
+    float: right;
+    padding: 1em;
+    margin:	1em;
+}
+footer{
+	padding: 2em;
+}
+
+#navbottom{
+	text-align: center;
+	margin: 2%; 
+    padding: 3em;
+}
