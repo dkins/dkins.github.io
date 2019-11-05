@@ -17,11 +17,6 @@ body{
 	font-size: 1em; 
 	position: relative;
 }
-.wrapper{
-margin-left: auto;
-margin-right: auto;
-width: 90%; 
-}
 
 #top{
 	text-align: right;
@@ -84,6 +79,7 @@ p, article {
 }
 
 #one {
+    border: 1px black solid;
     width: 26.66%;
     float: left;
     padding: 1em;
@@ -91,6 +87,7 @@ p, article {
 }
 
 #two {
+    border: 1px black solid;
     width: 26.66%;
     float: left;
     padding: 1em;
@@ -98,6 +95,7 @@ p, article {
 }
 
 #three{ 
+    border: 1px black solid;
     width: 26.66%;
     float: left;
     padding: 1em;
@@ -126,6 +124,7 @@ p, article {
 }
 
 aside{
+    border: 1px black solid;
     padding: 20px;
     font-family: 'Overpass', sans-serif;
 }
