@@ -54,6 +54,10 @@ a:visited {
   color:  #2c2c2b;
 }
 
+a:link {
+    color: black; 
+}
+
 a:hover {
   color: #778899;
 }
