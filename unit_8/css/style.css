@@ -192,13 +192,14 @@ li#bottomn{
 }
 
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1384px) {
     #one, #two, #three {
         width: 26%;
         float: left;
         padding: 1em;
         margin: 1em;
     }
+
     h2{ 
         font-size: 2em;
     }
@@ -211,6 +212,14 @@ li#bottomn{
         padding-top: 0;
     }
 }
+
+@media only screen and (max-width: 1021px) {
+    #one, #two, #three {
+        width: auto;
+        height: auto;
+        float: none;
+    }
+}
  @media only screen and (max-width: 768px) {
     h1 {
         font-size: 3em;
@@ -218,12 +227,6 @@ li#bottomn{
 
     li a {
         padding: .5em .45em;
-    }
-
-    #one, #two, #three {
-        width: auto;
-        height: auto;
-        float: none;
     }
 
     .img1, .img2, .img3 {
