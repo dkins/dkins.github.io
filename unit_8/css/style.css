@@ -69,6 +69,7 @@ a:active {
 header {
     padding: 5%;
     margin-top: 5%;
+    margin-bottom: 10%;
 }
 
 h1 {
@@ -191,8 +192,12 @@ li#bottomn{
     display: inline-block;
 }
 
-
 @media only screen and (max-width: 1384px) {
+    
+    header{
+        margin-bottom: 10%;
+    }
+
     #one, #two, #three {
         width: 26%;
         float: left;
@@ -211,7 +216,6 @@ li#bottomn{
      #explination {
         padding-top: 0;
     }
-}
 
 @media only screen and (max-width: 1021px) {
     #one, #two, #three {
@@ -219,8 +223,12 @@ li#bottomn{
         height: auto;
         float: none;
     }
-}
+
  @media only screen and (max-width: 768px) {
+    header {
+        margin-bottom: 0; 
+    }
+
     h1 {
         font-size: 3em;
     }  
@@ -234,7 +242,7 @@ li#bottomn{
         width: 60%;
         background-position: 50% 50%;
     }
-}
+
  @media only screen and (max-width: 425px) {
 
     body{
@@ -272,7 +280,7 @@ li#bottomn{
     #dbio {
         width: 80%;
     }
-}
+
  @media only screen and (max-width: 425px) {
     ul {
         margin-top: 2em;
@@ -286,3 +294,7 @@ li#bottomn{
         padding: 0;
     }
 }
+}
+}
+}
+
