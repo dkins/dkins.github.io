@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass|Paytone+One&display=swap');
+*{	
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	
+	background-image: url("../images/background.jpg");
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #F5F5F5;
+	text-align: center;
+	text-decoration-color: #2c2c2b;
+	color: #000;
+	font-family: 'Overpass', sans-serif;
+	font-size: 16px; 
+	position: relative;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+nav#top {
+	padding: .5%; 
+    background-color: #F5F5F5;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li#topn {
+  float: right;
+}
+
+li a {
+  display: inline-block;
+  text-align: right;
+  padding: .75em 1em;
+  margin-right: .5em;
+  margin-left: .5em;
+  text-decoration: none;
+  border: solid  #2c2c2b; 
+}
+
+a:visited {
+  color:  #2c2c2b;
+}
+
+a:hover {
+  color: #778899;
+}
+
+a:active {
+  color:  #778899;	
+}
+
+header {
+    padding: 5%;
+    margin-top: 5%;
+}
+
+h1 {
+	font-family: 'Paytone One', sans-serif;
+	font-size: 6em;
+	font-weight: bold;
+}
+
+h2 {	
+	font-size: 3em; 
+	text-align: center;
+	text-transform: capitalize;
+	font-family: 'Paytone One', sans-serif;
+	font-style: italic;
+}
+
+#tagline {
+	margin-bottom: 25%; 
+    margin-top: 1em;	
+}
+
+p, article {
+	font-size: 1.1em; 
+	text-align: center;
+}
+
+.img1, .img2, .img3 {
+	position: relative;
+    width:100%;
+    background-position: 50% 50%;   
+}
+
+#three_column {
+    padding: 2em;
+}
+
+#one {
+    width: 28%;
+    float: left;
+    padding: 1em;
+    margin:	1em;
+}
+
+#two {
+    width: 28%;
+    float: left;
+    padding: 1em;
+    margin:	1em;
+}
+
+#three { 
+    width: 28%;
+    float: left;
+    padding: 1em;
+    margin:	1em;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: "";
+    clear: both;
+    height: 0;
+}
+
+#explination {
+	font-weight: bold;
+	padding-top: 4em;
+    margin: 0 auto;
+    width: 80%;
+    display: inline-block;
+}
+
+#about_class {
+	background-color: #D3D3D3;
+}
+
+h3{
+	text-align: center;
+	font-family: 'Overpass', sans-serif; 
+	text-transform: capitalize;
+}
+
+.didipic, .emapic {
+	position: relative;
+    width:100%;
+    background-position: 50% 50%; 
+}
+
+h4{
+	font-family: 'Paytone One', sans-serif;
+	font-size: 3em;
+	font-weight: bold;
+}
+
+#two_column {
+    padding: 2em;
+}
+
+#abio {
+    width: 40%;
+    float: left;
+    padding: 1em;
+    margin:	1em;
+}
+
+#dbio {
+    width: 40%;
+    float: right;
+    padding: 1em;
+    margin:	1em;
+}
+
+footer {
+	padding: 1em;
+}
+
+li#bottomn{
+    display: inline-block;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    #one, #two, #three {
+        width: 26%;
+        float: left;
+        padding: 1em;
+        margin: 1em;
+    }
+    h2{ 
+        font-size: 2em;
+    }
+
+    #tagline{
+        margin-bottom: 20%;
+    }
+
+     #explination {
+        padding-top: 0;
+    }
+}
+ @media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 3em;
+    }  
+
+    li a {
+        padding: .5em .45em;
+    }
+
+    #one, #two, #three {
+        width: auto;
+        height: auto;
+        float: none;
+    }
+
+    .img1, .img2, .img3 {
+        position: relative;
+        width: 60%;
+        background-position: 50% 50%;
+    }
+}
+ @media only screen and (max-width: 425px) {
+
+    body{
+        background-size: 100% 10%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }  
+
+    h2{
+        font-size: 1.25em;
+    }
+    ul {
+        text-align: center;
+        display: inline-block
+    }
+   
+    header{
+        padding: 2em;
+    }
+
+    #tagline {
+        margin-bottom: 20%;
+    }
+
+    #three_column{
+        padding: 0; 
+    }
+
+    #abio {
+        width: 80%;
+    }
+
+    #dbio {
+        width: 80%;
+    }
+}
+ @media only screen and (max-width: 425px) {
+    ul {
+        margin-top: 2em;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    #two_column {
+        padding: 0;
+    }
+}
